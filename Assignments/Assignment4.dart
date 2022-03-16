@@ -46,17 +46,47 @@ else if (userinput.toString() == "4")
     //Question : (5)
 else if (userinput.toString() == "5") 
   {
-  List fruit = ['apple','banana','mango','strawberry'];
-  
-  for(var item in fruit){
-    
+  List fruit = ['apple','banana','mango','strawberry'];  
+  for(var item in fruit){    
   print(item);
-
+  }  
   }
+
+// Qestion : (8)
+else if (userinput.toString() == "8") 
+  {
   
+  print('Enter First Number :');
+    int first_num = int.parse(stdin.readLineSync()!);
+      print('Enter Second Number :');
+  int Second_num = int.parse( stdin.readLineSync()!);
+      print('Enter Operator (+,-,*,/):');
+  var Operator = stdin.readLineSync();
 
+  if(Operator == "+")
+  {
+     print('$first_num  $Second_num : ${first_num + Second_num}');
   }
 
+   else if(Operator == "-")
+  {
+     print('$first_num $Operator $Second_num : ${first_num - Second_num}');
+  }
+
+  else if(Operator == "*")
+  {
+     print('$first_num $Operator $Second_num : ${first_num * Second_num}');
+  }
+
+  else if(Operator == "/")
+  {
+     print('$first_num $Operator $Second_num : ${first_num / Second_num}');
+  }
+
+
+
+
+  }
 
 
 }
