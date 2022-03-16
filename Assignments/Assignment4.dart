@@ -82,11 +82,21 @@ else if (userinput.toString() == "8")
   {
      print('$first_num $Operator $Second_num : ${first_num / Second_num}');
   }
+  }
 
 
+else if (userinput.toString() == "10") 
+  {
+    String name = 'natsikaP nawaJ';
 
+/*     print(name);
+    print(name.split(''));
+    print(name.split('').reversed);
+    print(name.split('').reversed.join()); */
+  print(name.split('').reversed.join());
 
   }
+
 
 
 }
