@@ -52,6 +52,21 @@ else if (userinput.toString() == "5")
   }  
   }
 
+
+// Question : (6)
+
+else if (userinput.toString() == "6") 
+  {
+
+     var tbl = 5;
+   for(var num=1;num<=20;num++)
+   {
+     print(tbl*num);
+   }
+
+
+  }
+
 // Qestion : (8)
 else if (userinput.toString() == "8") 
   {
@@ -84,6 +99,25 @@ else if (userinput.toString() == "8")
   }
   }
 
+// Question : (9)
+
+else if(userinput.toString() == "9")
+{
+ 
+ print('Enter a character: ');
+ var v = stdin.readLineSync();
+ 
+if(v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u')
+  {
+    print('True');
+}
+else {
+  print('false');
+}
+
+
+}
+// Question : (10)
 
 else if (userinput.toString() == "10") 
   {
