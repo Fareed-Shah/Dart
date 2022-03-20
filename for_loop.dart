@@ -61,8 +61,13 @@ for (var item in list)
     smallest = item;
  }
  
- 
+  if(largest < item)
+ {
+    largest = item;
+ }
+  
 }
 print(smallest);
+print(largest);
 
 }
