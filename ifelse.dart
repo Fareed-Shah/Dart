@@ -1,12 +1,14 @@
 
 
 
+// ignore_for_file: dead_code
+
 void main() {
   
   
   
 bool offeredwinter = false;
-bool offeredsummer = false;
+bool offeredsummer = true;
 
 
 if (offeredwinter) {
@@ -15,15 +17,15 @@ if (offeredwinter) {
     print('course offered in both winter and summe');
    }
    else{
-     print('course only offer in winter');
+     print('course offered only offer in winter');
    }
  
 }
 else if(offeredsummer){
-  print('Course only offer in Summer');
+  print('Course offered only offer in Summer');
 }
 else{
-  print('No Course in this Summer or winter');
+  print('No Course offered in this Summer or winter');
 }
 
 
