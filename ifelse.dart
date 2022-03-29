@@ -7,7 +7,7 @@ void main() {
   
   
    
-bool offeredwinter = false;
+bool offeredwinter = true;
 bool offeredsummer = true;
 
 
