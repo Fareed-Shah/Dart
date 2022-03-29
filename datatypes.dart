@@ -2,7 +2,7 @@
 void main() {
 
  
-// Number Datatype.
+                        // Number Datatype.
 // int only take number 
  int age =20;
 // double take decimal
@@ -13,7 +13,15 @@ void main() {
 /* print(price);
 print(rate1); */
 
+                  // String
+
+String name ="Fareed Shah";
+String Address = "Block B Wahid Colony";
+// concatenate string and int 
+// you need to convert other data type to string using to.string() to concatenate
+//with string
+print(name + " "+ rate.toString());
 
 
-  
 }
+
