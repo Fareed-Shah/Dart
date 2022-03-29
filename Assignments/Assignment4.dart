@@ -105,7 +105,7 @@ else if(userinput.toString() == "9")
 {
  
  print('Enter a character: ');
- var v = stdin.readLineSync();
+ var v =  stdin.readLineSync();
  
 if(v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u')
   {
