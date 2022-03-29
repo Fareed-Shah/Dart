@@ -22,6 +22,27 @@ String Address = "Block B Wahid Colony";
 //with string
 print(name + " "+ rate.toString());
 
+ // Bool
+ bool calc;
+ calc = 12 < 5 ;
+ //print(calc);
+ 
+ bool str  ;
+var a = "ac";
+str = !(a=="v");
+  
+if(str)
+{
+  print('it is true');
+}
+else
+{
+  print('not true');
+} 
 
+
+
+
+ 
 }
 
