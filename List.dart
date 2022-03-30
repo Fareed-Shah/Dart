@@ -4,7 +4,15 @@
 void main() {
 
 
-List lst = ['Fareed',2,3,4,5,6,7,8,9];
+List lst = [50,80,20,30];
+List lst1 = [60,80,20,30];
+List lst3 = lst + lst1;
+
+//var rs = lst.reduce((value, element) => value+element);
+var rs1 = lst3.reduce((value, element) => value+element);
+print(lst3);
+
+
 //print(lst.reversed.toList()[0]);
 /*  print(lst.remove(7));
 lst.removeAt(1);
@@ -17,7 +25,6 @@ lst.removeRange(0,5); */
 //lst.contains(5);
 //print(lst.contains(5));
 
-lst.reduce((value, element) => null);
 
 /* bool check = lst.contains('Fareed');
 
