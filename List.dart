@@ -11,6 +11,7 @@ print(lst.elementAt(1));
 print(lst.length);
   */
 
+    // replace range : will replace element's in list from start index to end index
 
 lst.replaceRange(0,3,[7,4,6]);
 print(lst);
