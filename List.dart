@@ -10,7 +10,8 @@ List lst3 = lst + lst1;
 
 //var rs = lst.reduce((value, element) => value+element);
 var rs1 = lst3.reduce((value, element) => value+element);
-print(lst3);
+print('Sum of two list : $rs1');
+
 
 
 //print(lst.reversed.toList()[0]);
