@@ -4,7 +4,7 @@
 void main() {
 
 
-List lst = [1,2,3,4,5,6,7,8,9];
+List lst = ['Fareed',2,3,4,5,6,7,8,9];
 //print(lst.reversed.toList()[0]);
 /*  print(lst.remove(7));
 lst.removeAt(1);
@@ -14,11 +14,21 @@ lst.removeRange(0,5); */
 //lst.add('Fareed');
 //lst.addAll(['Fareed','Shah',1]);
 //lst.removeLast();
-print(lst);
+//lst.contains(5);
+//print(lst.contains(5));
 
+lst.reduce((value, element) => null);
 
+/* bool check = lst.contains('Fareed');
 
-
+if(check)
+{
+  print('Fareed is in List');
+}
+else
+{
+  print('not in list');
+} */
 
 /* List lst = [8,2,5,11,9];
 /* print(lst.first);
