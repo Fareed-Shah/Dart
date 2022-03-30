@@ -47,8 +47,7 @@ if(pass.toString() == "")
  }
  else{
    print('Password did not match:');
- }
-
+ } 
 }
 
 else if(pass.toString().toUpperCase()== str){
