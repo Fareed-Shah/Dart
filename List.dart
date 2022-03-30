@@ -4,7 +4,14 @@
 void main() {
 
 
-List lst = [8,2,5,11,9];
+List lst = [1,2,3,4,5,6,7,8,9];
+print(lst.reversed.toList()[0]);
+
+
+
+
+
+/* List lst = [8,2,5,11,9];
 /* print(lst.first);
 print(lst.last);
 print(lst.elementAt(1));
@@ -28,7 +35,7 @@ if(check)
 else
 {
   print('List has element $lst');
-}
+} */
 
 
   
