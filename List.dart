@@ -4,15 +4,16 @@
 void main() {
 
 
-List lst = [50,80,20,30];
-List lst1 = [60,80,20,30];
+List lst = [50,80,10,22,12,36,20,30];
+/* List lst1 = [60,80,20,30];
 List lst3 = lst + lst1;
 
 //var rs = lst.reduce((value, element) => value+element);
 var rs1 = lst3.reduce((value, element) => value+element);
-print('Sum of two list : $rs1');
+print('Sum of two list : $rs1'); */
 
-
+      // get range for selection of multiple index
+print(lst.getRange(3,lst.length ).toList());
 
 //print(lst.reversed.toList()[0]);
 /*  print(lst.remove(7));
