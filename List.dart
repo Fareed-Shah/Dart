@@ -5,7 +5,12 @@ void main() {
 
 
 List lst = [1,2,3,4,5,6,7,8,9];
-print(lst.reversed.toList()[0]);
+//print(lst.reversed.toList()[0]);
+ print(lst.remove(7));
+lst.removeAt(1);
+lst.removeAt(lst.length-1); 
+lst.removeRange(0,5);
+print(lst);
 
 
 
