@@ -34,15 +34,29 @@ bool offeredsummer = true;
 
 
 print('Enter Password');
-var str = "Fareed";
+var str = "FAREED";
 var pass = stdin.readLineSync();
 
 if(pass.toString() == "")
 { 
  print('Please Enter Your  Password');
   pass = stdin.readLineSync();
+
+ if(pass.toString().toUpperCase()== str){
+   print('Correct The password you enterd original password :');
+ }
+ else{
+   print('Password did not match:');
+ }
+
 }
 
+else if(pass.toString().toUpperCase()== str){
+   print('Correct The password you enterd original password :');
+ }
+ else{
+   print('Password did not match:');
+ }
 
 
 
