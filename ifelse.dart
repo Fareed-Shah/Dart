@@ -3,11 +3,13 @@
 
 // ignore_for_file: dead_code
 
+import 'dart:io';
+
 void main() {
   
   
    
-bool offeredwinter = true;
+/* bool offeredwinter = true;
 bool offeredsummer = true;
 
 
@@ -28,11 +30,18 @@ bool offeredsummer = true;
     else{
       print('No Course offered in this Summer or winter');
     }
- 
+  */
 
 
+print('Enter Password');
+var str = "Fareed";
+var pass = stdin.readLineSync();
 
-
+if(pass.toString() == "")
+{ 
+ print('Please Enter Your  Password');
+  pass = stdin.readLineSync();
+}
 
 
 
