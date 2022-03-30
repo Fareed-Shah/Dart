@@ -13,8 +13,9 @@ var rs1 = lst3.reduce((value, element) => value+element);
 print('Sum of two list : $rs1'); */
 
       // get range for selection of multiple index
-print(lst.getRange(3,lst.length ).toList());
-
+//print(lst.getRange(3,lst.length ).toList());
+lst.replaceRange(0, 5, [1,2,3,4,5]);
+print(lst);
 //print(lst.reversed.toList()[0]);
 /*  print(lst.remove(7));
 lst.removeAt(1);
