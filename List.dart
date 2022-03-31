@@ -4,8 +4,9 @@
 void main() {
 
 
-List lst = [50,80,10,22,12,36,20,30];
- List lst1 = [60,80,20,30];
+List lst = [50,80,10,22,5,36,20,30];
+print(lst.contains(5));
+/*  List lst1 = [60,80,20,30];
 List lst3 = lst + lst1;
 
 var rs = lst.reduce((value, element) => value+element);
@@ -39,7 +40,7 @@ else
 {
   print('not in list');
 } 
-
+ */
 /* List lst = [8,2,5,11,9];
 /* print(lst.first);
 print(lst.last);
