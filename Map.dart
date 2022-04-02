@@ -12,6 +12,8 @@ print(Info.length);
 print(Info.containsKey('Name')); */
 //Info.clear();
 //Info.remove('Mobile');
+Info['Name'] = 'Ahmed';
+Info.addAll({'Name':'Fareed'});
 print(Info);
 
 
