@@ -5,8 +5,10 @@ void main() {
 
 
 List lst = [50,80,10,22,5,36,20,30];
+
+
 //print(lst.getRange(3,lst.length));
-print(lst.getRange(1,lst.length));
+//print(lst.getRange(1,lst.length));
 /*  List lst1 = [60,80,20,30];
 List lst3 = lst + lst1;
 
