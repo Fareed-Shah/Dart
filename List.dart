@@ -6,6 +6,9 @@ void main() {
 
 List lst = [50,80,10,22,5,36,20,30];
 
+print(lst.getRange(2, lst.length));
+
+
 List fruit1 = [1,'Apple',2,'Mango'];
 List fruit2 = [3,'Banana',4,'Cherry'];
 List final_list = fruit1 + fruit2;
