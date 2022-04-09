@@ -1,5 +1,8 @@
 void main() {
 
+
+
+
 /* 
 List names = ['fareed','bilal','ali','owais'];
 for(var i =0; i < names.length ; i++ )
@@ -46,7 +49,7 @@ print(lst.last); */
 
 // smallest  to largest from loop
 
-List list = [10,8,7,5,90,22,20,3,33,45];
+/* List list = [10,8,7,5,90,22,20,3,33,45];
 int smallest = list[0];
 int largest = list[0];
 
@@ -65,6 +68,6 @@ for (var item in list)
   
 }
 print(smallest);
-print(largest);
+print(largest); */
 
 }
