@@ -1,9 +1,11 @@
 void main() {
 
 var count = 10;
+var tbl = 5;
 
 for (var i = 1; i <= count; i++) {
-  print(i);
+
+  print(tbl*i);
 }
 
 
