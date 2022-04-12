@@ -1,7 +1,7 @@
 void main() {
 
  Student obj1 = new Student(sec: 'A',name: 'Fareed');
- Student obj2 = new Student(name: 'Ali',sec: 'B');
+ Student obj2 = new Student(sec: 'B');
  obj1.StudentData();
  obj2.StudentData();
 
@@ -15,7 +15,7 @@ class Student {
  var sec  = '';
 
 
-Student( {required name ,sec }){
+Student( { name='Ali' ,sec }){
 this.name = name;
 this.sec = sec;
 }
