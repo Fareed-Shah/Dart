@@ -1,17 +1,23 @@
 
 void main() {
-  
- var a=StudentData('Fareed');
- print(a);
+   
+
+var std1 =StudentPerc('Fareed', 85,77, 72);
+print(std1);
+
 
 
 }
 
 
-StudentData(String name){
+StudentPerc(String name,int maths,int urdu,int eng){
 
-print('Name of Student is: $name');
-return name;
+int obt = maths+urdu+eng;
+double per = (obt*100)/300;
+
+print('$name Percantage is: $per');
+return name+ ' '+  per.toString();
+
 }
 
 
