@@ -1,13 +1,35 @@
 void main() {
 
-var count = 10;
+
+var name = ['Fareed','ali','bilal'];
+
+/* for (var item in name) {
+  print(item);
+} */
+
+for (var i = 0; i < name.length; i++) {
+  print(name[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* var count = 10;
 var tbl = 5;
 
 for (var i = 1; i <= count; i++) {
 
   print(tbl*i);
 }
-
+ */
 
 /* 
 List names = ['fareed','bilal','ali','owais'];
