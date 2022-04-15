@@ -9,6 +9,24 @@ Map City_Address = {'City':['Karachi','Lahore','Islamabad'],'address':['Block B'
 Map cmbine = {}..addAll(Name_Mobile)..addAll(City_Address);
 print(cmbine.keys);
 
+int RollNo;
+Map Studentlist = {'RollNo':[147,258,369,987,456,321],
+                  'Name':['Fareed','Ali','Bilal','Owais','Naveed','Osama']};
+
+ List a  =Studentlist.values.toList()[0];
+ 
+ for (var item in a) {
+
+   if(item==158){
+
+     print('yes');
+     break;
+   }
+   else{
+     print('not');
+   }
+   
+ }
 
 //print(Name_Mobile['Name'][0]);
 //  Dart Map Using Literal's
