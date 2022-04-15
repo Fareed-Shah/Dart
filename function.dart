@@ -7,6 +7,21 @@ int RollNo;
 Map Studentlist = {'RollNo':[147,258,369,987,456,321],
                   'Name':['Fareed','Ali','Bilal','Owais','Naveed','Osama']};
 
+ List a  =Studentlist.values.toList()[0];
+ 
+ for (var item in a) {
+
+   if(item==158){
+
+     print('yes');
+     break;
+   }
+   else{
+     print('not');
+   }
+   
+ }
+
 
 
 }
