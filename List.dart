@@ -4,7 +4,22 @@
 void main() {
 
 
-List lst = [50,80,10,22,5,36,20,30];
+List a =[1,2,3,4,5,6,7];
+List b= [3,5,6,7,9,10];
+List c=[];
+
+
+a.forEach((element) { 
+
+  if(!b.contains(element))
+  {
+    c.add(element);
+  }
+});
+print(c);
+
+
+/* List lst = [50,80,10,22,5,36,20,30];
 
 print(lst.getRange(2, lst.length));
 
@@ -12,7 +27,7 @@ print(lst.getRange(2, lst.length));
 List fruit1 = [1,'Apple',2,'Mango'];
 List fruit2 = [3,'Banana',4,'Cherry'];
 List final_list = fruit1 + fruit2;
-print(final_list);
+print(final_list); */
 
 
 //print(lst.getRange(3,lst.length));
