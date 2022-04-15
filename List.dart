@@ -1,6 +1,5 @@
 
 
-
 void main() {
 
 
@@ -8,12 +7,11 @@ List a =[1,2,3,4,5,6,7];
 List b= [3,5,6,7,9,10];
 List c=[];
 
-
 a.forEach((element) { 
 
   if(!b.contains(element))
   {
-    c.add(element);
+  c.add(element);
   }
 });
 print(c);
