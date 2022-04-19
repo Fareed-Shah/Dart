@@ -39,6 +39,13 @@ smartphone_info(){
 smartphone_info_cp(){
   print(companyName);
 }
+}
+
+
+class Tablet extends Smartphone{
+
+
+  Tablet(String companyName, String? colour, int size) : super(companyName, colour, size);
 
 }
 
