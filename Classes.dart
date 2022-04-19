@@ -42,10 +42,10 @@ smartphone_info_cp(){
 }
 
 
+// inheritance
 class Tablet extends Smartphone{
 
 
-  Tablet(String companyName, String? colour, int size) : super(companyName, colour, size);
 
 }
 
