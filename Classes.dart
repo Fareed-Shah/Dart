@@ -1,30 +1,32 @@
 void main() {
 
- Student obj1 = new Student(sec: 'A',name: 'Fareed');
- Student obj2 = new Student(sec: 'C');
- //obj1.StudentData();
- obj2.StudentData();
+Smartphone obj = Smartphone();
+obj.companyName = "Infinix";
+obj.colour = "Black";
+obj.size = 6;
+obj.smartphone_info();
+//print(obj.companyName);
+
 
 }
 
 
+class Smartphone{
+// attributes
 
-class Student {
-  
- var name = '';
- var sec  = '';
+String  companyName = "";
+String ?  colour = "";
+int  size =0;
 
 
-Student( { name='Ali' ,sec='' }){
-this.name = name;
-this.sec = sec;
-}
+//behaviour
 
-StudentData()
-{
- print(name);
- print(sec);
+smartphone_info(){
+ print(companyName);  
+ print(colour);  
+ print('$size inch Display');  
 
 }
 
 }
+
