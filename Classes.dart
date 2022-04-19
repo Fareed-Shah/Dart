@@ -1,10 +1,16 @@
 void main() {
 
-Smartphone obj = Smartphone();
-obj.companyName = "Infinix";
+
+Smartphone obj = Smartphone('Samsung','White',6);
+Smartphone cp =  Smartphone.company('Infinix');
+/* obj.companyName = "Infinix";
 obj.colour = "Black";
-obj.size = 6;
+obj.size = 6; */
+print('Default construter :');
 obj.smartphone_info();
+
+print('Named construter:');
+cp.smartphone_info_cp();
 //print(obj.companyName);
 
 
@@ -12,20 +18,26 @@ obj.smartphone_info();
 
 
 class Smartphone{
-// attributes
-
+                              // attributes
 String  companyName = "";
 String ?  colour = "";
 int  size =0;
 
+                             //Default constructor   
+Smartphone(this.companyName,this.colour,this.size);                            
+                            // Named constructor
+Smartphone.company(this.companyName);
 
-//behaviour
+                                //behaviour 
 
 smartphone_info(){
  print(companyName);  
  print(colour);  
  print('$size inch Display');  
+}
 
+smartphone_info_cp(){
+  print(companyName);
 }
 
 }
