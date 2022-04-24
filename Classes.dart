@@ -43,9 +43,9 @@ smartphone_info_cp(){
 
 
 // inheritance
-class Tablet extends Smartphone{
+/* class Tablet extends Smartphone{
 
 
 
-}
+} */
 
